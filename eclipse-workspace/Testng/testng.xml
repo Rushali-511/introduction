@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan" parallel="tests"  thread-count="3">
+<listeners>
+<listener class-name="test.Listeners"/>
+</listeners>
+<parameter name="URL" value="google.com"/>
+  <test thread-count="5" name="psb">
+  <parameter name="NO" value="22"/>
+    <classes>
+      <class name="test.test2"/>
+      <class name="test.day4"/>
+      <class name="test.test1"/>
+    </classes>
+  </test> 
+  
+  <!-- Test -->
+  <test name="wipro">
+  <classes>
+     <class name="test.day3"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

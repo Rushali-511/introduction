@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+      <class name="quiclclicacademy.Mavenjava.SeleniumTest">
+        <test-method status="PASS" signature="Selenoum()[pri:0, instance:quiclclicacademy.Mavenjava.SeleniumTest@1877ab81]" name="Selenoum" duration-ms="15" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Selenoum -->
+        <test-method status="PASS" signature="stest()[pri:0, instance:quiclclicacademy.Mavenjava.SeleniumTest@1877ab81]" name="stest" duration-ms="2" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stest -->
+      </class> <!-- quiclclicacademy.Mavenjava.SeleniumTest -->
+      <class name="quiclclicacademy.Mavenjava.APITest">
+        <test-method status="PASS" signature="A()[pri:0, instance:quiclclicacademy.Mavenjava.APITest@305fd85d]" name="A" duration-ms="3" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="Api()[pri:0, instance:quiclclicacademy.Mavenjava.APITest@305fd85d]" name="Api" duration-ms="4" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Api -->
+      </class> <!-- quiclclicacademy.Mavenjava.APITest -->
+      <class name="quiclclicacademy.Mavenjava.AppuimTest">
+        <test-method status="PASS" signature="App()[pri:0, instance:quiclclicacademy.Mavenjava.AppuimTest@458c1321]" name="App" duration-ms="4" started-at="2020-12-27T20:52:07 IST" finished-at="2020-12-27T20:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- App -->
+      </class> <!-- quiclclicacademy.Mavenjava.AppuimTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
